@@ -34,6 +34,23 @@ A sample config is provided in [`examples/vscode/mcp.json`](examples/vscode/mcp.
 
 ---
 
+## Copilot instructions & agents (examples)
+
+Ready-to-use examples are in [`examples/`](examples/). Copy the relevant file(s) into the root or `.github/` of your own project.
+
+| File | Consumed by |
+|---|---|
+| [`AGENTS.md`](examples/AGENTS.md) | OpenAI Codex, Claude Code, and most agent runtimes |
+| [`CLAUDE.md`](examples/CLAUDE.md) | Claude Code (`claude` CLI) |
+| [`.cursorrules`](examples/.cursorrules) | Cursor (legacy format, project-root) |
+| [`.cursor/rules/memory-tools.mdc`](examples/.cursor/rules/memory-tools.mdc) | Cursor (modern per-rule format) |
+| [`.github/copilot-instructions.md`](examples/.github/copilot-instructions.md) | GitHub Copilot in VS Code |
+| [`.github/prompts/save-memory.prompt.md`](examples/.github/prompts/save-memory.prompt.md) | VS Code `/save-memory` prompt |
+| [`.github/prompts/recall-memory.prompt.md`](examples/.github/prompts/recall-memory.prompt.md) | VS Code `/recall-memory` prompt |
+| [`.github/agents/memory.md`](examples/.github/agents/memory.md) | VS Code `@memory` custom agent mode |
+
+---
+
 ## Architecture
 
 ```
