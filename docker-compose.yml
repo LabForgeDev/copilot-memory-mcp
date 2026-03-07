@@ -1,0 +1,15 @@
+services:
+  copilot-memory-mcp:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - chroma_data:/data/chroma
+    environment:
+      - CHROMA_PATH=/data/chroma
+      - SENTENCE_TRANSFORMERS_HOME=/app/models
+      - PORT=8000
+    restart: unless-stopped
+
+volumes:
+  chroma_data:
