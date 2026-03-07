@@ -18,6 +18,8 @@ The server starts on `http://localhost:8000/sse`.
 
 The `.vscode/mcp.json` already points Copilot at the server — no further VS Code configuration needed.
 
+A sample config is provided in [`examples/vscode/mcp.json`](examples/vscode/mcp.json). Copy it to your project's `.vscode/mcp.json`.
+
 ---
 
 ## MCP tools
