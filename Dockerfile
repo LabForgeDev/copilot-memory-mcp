@@ -10,10 +10,10 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 # Install Python dependencies first (layer-cache friendly)
 # Install deps explicitly so we don't need source code at this stage.
 RUN pip install --no-cache-dir \
-    "fastmcp>=2.0" \
-    "chromadb>=0.5" \
-    "sentence-transformers>=3.0" \
-    "pydantic>=2.0"
+    "fastmcp>=3.1.0" \
+    "chromadb>=1.5.3" \
+    "sentence-transformers>=5.2.3" \
+    "pydantic>=2.12.5"
 
 # Pre-download the sentence-transformers model into the image so the first
 # container start is instant.  The model lives at /app/models (not a volume).
