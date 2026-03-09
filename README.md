@@ -8,6 +8,12 @@ A local MCP server that gives Copilot durable, project-scoped memory across sess
 
 ---
 
+## Why this exists
+
+Copilot starts every session with a blank slate. This MCP server gives it a persistent, searchable knowledge base so decisions, conventions, and context carry over between sessions — all running locally in Docker.
+
+---
+
 ## Quick start
 
 ```bash
