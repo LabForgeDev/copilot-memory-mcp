@@ -1,5 +1,5 @@
 name: copilot-memory-mcp
-image: mcp/copilot-memory-mcp
+image: ghcr.io/labforgedev/copilot-memory-mcp
 type: server
 meta:
   category: developer-tools
