@@ -1,5 +1,7 @@
 FROM python:3.12-slim
 
+LABEL io.modelcontextprotocol.server.name="io.github.labforgedev/copilot-memory-mcp"
+
 WORKDIR /app
 
 # Install build deps needed by some ChromaDB / sentence-transformers deps
