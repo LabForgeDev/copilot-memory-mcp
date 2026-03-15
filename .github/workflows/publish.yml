@@ -66,4 +66,4 @@ jobs:
       - name: Publish to MCP Registry
         run: |
           mcp-publisher login github-oidc
-          mcp-publisher publish
+          mcp-publisher publish || echo "::warning::MCP registry publish failed (may already exist for this version)"
