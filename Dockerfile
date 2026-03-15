@@ -1,6 +1,6 @@
 FROM python:3.12-slim
 
-LABEL io.modelcontextprotocol.server.name="io.github.labforgedev/copilot-memory-mcp"
+LABEL io.modelcontextprotocol.server.name="io.github.LabForgeDev/copilot-memory-mcp"
 
 WORKDIR /app
 
